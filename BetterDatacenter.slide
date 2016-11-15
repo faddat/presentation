@@ -1,0 +1,114 @@
+# http://godoc.org/golang.org/x/tools/present
+# Present files have the following format. 
+# The first non-blank non-comment line is the title.
+# The subtitle, date, and tags lines are optional.
+Better Datacenters
+You bought that hardware for a reason, use it!
+15:43 15 Nov 2016
+Tags: datacenters, gpu, cryptocurrency, economics
+
+Jacob Gadikian
+CTO/Founder, Kloudery
+faddat@gmail.com
+http://jacobgadikian.com
+@jacobgadikian
+
+* Current Situation
+- Datacenters run at low average rates of utilization
+- Hypervisors waste an immense amount of datacenter compute capacity. 
+- GPU Compute resources are generally unavailable, and when they are available, they're too expensive to be viable. 
+- The death of Moore's law demands more specalized compute solutions to maintain application scale and availablity. 
+- To put it another way....
+	Computation is everywhere, but cannot be readily used. Everywhere that computation occurs, value is created.  What follows is a set of prescriptions for datacenters that provide and make available better computing services. 
+
+
+* Why do we have datacenters?
+- Security
+- Reliablity
+- Specialization
+
+Startups  and other tech enterprises value scalability.
+Scalability is the direct product of specalization.
+Datacenters specalize in having the equipment needed to keep software-mediated businesses running.   
+
+* Why do people buy datacenter services?
+- So that we don't need to buy a datacenter!
+
+but more seriously, why?
+
+- To run the applications that run their businesses.  
+
+* What's cryptocurrency got to do with this?
+- Low average utilization means that spare computation is available. 
+- Those spare compute cycles can profitably directed towards mining cryptocurrency
+- This counts double for GPU compute cycles.  
+
+
+* Who Buys GPU computation? Users of..
+- Machine Learning
+- Cryptocurrency mining
+- Rendering
+- Next Generation web applications
+
+Nearly all of the next generation computing techniques use a GPU or another specalized core. The trend towards compute specalization is increasing and it is likely that novel solutions will win the day.
+
+* What's the opportunity?
+Build a software mediated datacenter from modern computing equimpent including: 
+- GPUs
+- ARM Processing solutions
+
+	Note: Scaleway.com, leading provider of ARM computing, has been
+		sold out of their ARM products for a year.  
+
+* Okay, how do the financials look?
+This changes on a daily basis, but I'm going to assume my original design:
+- 1800 GPUs
+- 300 CPUs
+- Based on my research, each machine should be $1500-2000.  I'm going to use only the $2000 number.
+- All-new equipment that is upgraded every two product cycles, with old GPU equipment sold to gamers
+
+
+* Math (zcash/Zclassic)
+I'm covering ONLY cryptocurrency mining here.  The other value streams (hosting) will be addressed with appropriate software once mining is running.
+2000 * 300 = $600,000 (Actual number likely lower because of bulk discounts)
+
+Hashing value of AMD480 GPU for:
+- Zcash & Zclassic: 102 solutions per second
+
+
+Value of those hashes (zcash):
+- 1 Machine = $8.23 per day after $.15 per kwh electricity cost (total )
+- 300 machines = $2789.91 per day after $.15 per kwh electricity cost (total $4,058/day)
+
+Zcash pricing hasn't yet taken into account that it offers a network nearly identical to bitcoin, with additional privacy benefits.  
+
+
+* Math (Ethereum/Ethereum Classic)
+Hashing Value of ethereum classic:
+- Ethereum / Ethereum Classic: 25 MH/s per gpu
+- 25MH/s x 1800 = 45000MH/s = $1930.86 per day afterwards
+
+
+* That's taking into account only today's needs.
+- It doesn't seem like cryptocurrency is slowing, and depite non-hashing currencies, new ones still include a hashing requirement.
+
+* What else can the CPUs be doing?
+- Mining (of course)
+- Hosting (not slowed by GPU mining)
+- Running Applications in Docker Containers
+
+* How do profits on that look?
+- Container hosting is going for about $5-10/mo right now depending on features and computational intensity
+- One machine can host 300 containers of WordPress. 
+- These aren't exact numbers that are highly computable, like the others here.  The other numbers vary with respect to the daily market price.  
+
+* How about specalized computational devices?
+- Power8 is gaining in popularity
+- ARM is coming to datacenters
+
+
+* Why not only do cryptocurrency mining?
+- Why waste all of those CPU cores?
+
+* What does scalability look like?
+- This business scales by adding machines.  All numbers are currently based around 300 machines operating.
